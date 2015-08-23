@@ -1,4 +1,4 @@
-docker-counter-strike-server
+docker-CSGO-server
 ============================
 
-[![build status](http://ci.cmer.fr/projects/2/status.png?ref=master)](http://ci.cmer.fr/projects/2?ref=master)
+[![build status](http://ci.cmer.fr/projects/4/status.png?ref=master)](http://ci.cmer.fr/projects/4?ref=master)
