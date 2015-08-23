@@ -1,0 +1,10 @@
+before_script:
+  - echo "build docker babyy"
+
+build_image:
+  script:
+    - docker build -rm -t cmer-css-server .
+ #   - docker tag cmer-teamspeak:latest tutum.co/cmer81/teamspeak:latest 
+ #   - docker push tutum.co/cmer81/teamspeak:latest
+ #   - docker rmi cmer-teamspeak
+ #   - docker rmi tutum.co/cmer81/teamspeak
