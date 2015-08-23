@@ -8,7 +8,7 @@ RUN mkdir /steamcmd && cd /steamcmd && \
     wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz && \
     tar -xvzf steamcmd_linux.tar.gz
 
-RUN /steamcmd/steamcmd.sh +login anonymous +force_install_dir /steamcmd/cssserver +app_update 232330 validate +quit
+RUN /steamcmd/steamcmd.sh +login anonymous +force_install_dir /steamcmd/csgoserver +app_update 740 validate +quit
 
 EXPOSE 27015
 
