@@ -3,8 +3,8 @@ before_script:
 
 build_image:
   script:
-    - docker build -rm -t cmer-css-server .
-    - docker tag cmer-css-server tutum.co/cmer81/css-server:latest 
-    - docker push tutum.co/cmer81/css-server:latest
-    - docker rmi cmer-css-server
-    - docker rmi tutum.co/cmer81/css-server:latest
+    - docker build -rm -t cmer-csgo-server .
+    - docker tag cmer-csgo-server tutum.co/cmer81/cssgo-server:latest 
+    - docker push tutum.co/cmer81/cssgo-server:latest
+    - docker rmi cmer-csgo-server
+    - docker rmi tutum.co/cmer81/cssgo-server:latest
