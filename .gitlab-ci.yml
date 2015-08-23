@@ -4,7 +4,7 @@ before_script:
 build_image:
   script:
     - docker build -rm -t cmer-css-server .
- #   - docker tag cmer-teamspeak:latest tutum.co/cmer81/css-server:latest 
- #   - docker push tutum.co/cmer81/css-server:latest
- #   - docker rmi cmer-css-server
- #   - docker rmi tutum.co/cmer81/css-server:latest
+    - docker tag cmer-teamspeak:latest tutum.co/cmer81/css-server:latest 
+    - docker push tutum.co/cmer81/css-server:latest
+    - docker rmi cmer-css-server
+    - docker rmi tutum.co/cmer81/css-server:latest
